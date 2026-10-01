@@ -6,3 +6,16 @@ This adds dependencies to the pyproject.toml
 When you pull run:
 `uv sync`
 
+
+# API Spec
+## /account/create
+[POST]
+## /account/login
+[POST]
+## /account/logout
+[POST]
+## /account/{account_id}
+[GET, PUT, DELETE]
+## /items/{item_id}
+[GET, PUT, POST, DELTE]
+## 
